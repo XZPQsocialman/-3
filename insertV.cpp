@@ -4,8 +4,9 @@
 
 void Graph::InsertV()//插入点
 {
+	cout << "何宇轩" << endl;
 	cout << "输入点：(依次输入路由器名，四段IP地址)";
-	char temp;
+	int temp;
 	cin >> temp;
 	if (numV == maxV)
 		cout << "---------点数已经最大，插入点失败------------";
